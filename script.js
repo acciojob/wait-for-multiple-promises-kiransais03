@@ -4,20 +4,20 @@ let tbody = document.getElementById("output");
 let promise1 =new Promise(func1);
 
 
-function func1() {
+function func1(resolve) {
 	setTimeout(resolve,2000)
 }
 
  let promise2 =new Promise(func2);
 
-function func2() {
+function func2(resolve) {
 	setTimeout(resolve,1000)
 }
 
 
 let promise3 =new Promise(func3);
 
-function func3() {
+function func3(resolve) {
 	setTimeout(resolve,2000)
 }
 
