@@ -68,7 +68,9 @@ function func3(resolve) {
 }
 
 
-Promise.all([promise1,promise2,promise3]).then(addtoui)
+let finalPromise = Promise.all([promise1,promise2,promise3])
+
+finalPromise.then(addtoui);
 
 function addtoui() {
 	tbody.innerHTML="";
