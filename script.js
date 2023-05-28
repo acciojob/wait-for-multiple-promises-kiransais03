@@ -63,7 +63,7 @@ function func3(resolve) {
         timeadd(obj);
 	totaltime=totaltime+timetaken;
     console.log(totaltime);
-    },2000)
+    },3000)
 	
 }
 
